@@ -12,3 +12,8 @@ button.addEventListener('click', function() {
   // Display the random number in the output element
   output.textContent = `Your random number is: ${randomNumber}`;
 });
+
+function changeColor(color) {
+    const circle = document.getElementById('circle');
+    circle.style.backgroundColor = color;
+  }
